@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — TSA Wait Times</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           color: #1d1d1f; background: #f5f5f7; line-height: 1.6; }
+    .container { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+    .date { font-size: 14px; color: #86868b; margin-bottom: 32px; }
+    h2 { font-size: 18px; font-weight: 600; margin: 28px 0 8px; }
+    p, li { font-size: 15px; color: #1d1d1f; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    a { color: #007aff; text-decoration: none; }
+    .back { display: inline-block; margin-bottom: 24px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="/">&larr; TSA Wait Times</a>
+    <h1>Privacy Policy</h1>
+    <p class="date">Effective date: April 5, 2026</p>
+
+    <p>TSA Wait Times ("the App") is operated by Apps4Us. This policy explains what data we collect, how we use it, and your choices.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p><strong>Wait-time reports.</strong> When you submit a wait-time report, we store the checkpoint, reported wait in minutes, and an anonymous device identifier. We do not collect your name, email, or any account credentials — the App has no sign-up or login.</p>
+    <p><strong>Location.</strong> With your permission, the App accesses your device location solely to show nearby airports. Location data is processed on-device and is never sent to our servers.</p>
+    <p><strong>Notification token.</strong> If you enable spike alerts, the App requests a push-notification token from the operating system. This token is stored locally on your device.</p>
+    <p><strong>Preferences.</strong> Settings such as "I have TSA PreCheck" and favorite airports are stored locally on your device using AsyncStorage. They are never transmitted.</p>
+
+    <h2>2. How We Use Your Data</h2>
+    <ul>
+      <li>Aggregate wait-time reports to compute and display estimated wait times for each checkpoint.</li>
+      <li>Deliver local push notifications when a favorited airport's wait time exceeds your chosen threshold.</li>
+    </ul>
+
+    <h2>3. Third-Party Services</h2>
+    <p>The App uses the following third-party services, each with their own privacy policies:</p>
+    <ul>
+      <li><strong>Supabase</strong> (database and real-time updates) — <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+      <li><strong>Expo / EAS</strong> (app build and update delivery) — <a href="https://expo.dev/privacy">expo.dev/privacy</a></li>
+    </ul>
+    <p>We do not sell, share, or rent your data to any third parties for advertising or marketing.</p>
+
+    <h2>4. Data Retention</h2>
+    <p>Individual wait-time reports are retained for 90 days to compute rolling averages, then automatically deleted. Aggregated checkpoint statistics are kept indefinitely but contain no personal data.</p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>The App is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+
+    <h2>6. Your Choices</h2>
+    <ul>
+      <li>You may decline location access; the Nearby tab will simply be unavailable.</li>
+      <li>You may disable notifications in your device settings at any time.</li>
+      <li>You may delete the App to remove all locally stored data.</li>
+    </ul>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. The updated version will be posted at this URL with a revised effective date.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have questions, contact us at <a href="mailto:support@tsawaittimes.app">support@tsawaittimes.app</a>.</p>
+  </div>
+</body>
+</html>
